@@ -14,7 +14,7 @@
     margin-bottom: 15px;
 }
 .body{
-    background-image: url("");
+    background-image: url("https://multarte.com.br/wp-content/uploads/2018/12/fundo-cinza-escuro20.jpg");
     font-family: Verdana;
     max-width: 900px;
     margin: auto;
@@ -24,6 +24,9 @@
     border: 3px solid #000;
     margin-bottom: 15px;
     border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(90deg, #280399 0%, #0b4da9 50.52%, #6ea6ff 100%);
+    border-radius: 10px
 }
 .post_content{
     margin: 0;
@@ -35,16 +38,22 @@
     margin-bottom: 15px;
     width: 100%;
 }
-.perfil_image{
+/*.perfil_image{
     border-radius: 50%;
     border: 1px solid #000;
     width: auto;
     height: auto;
-}
+}*/
 .contacts_list{
     list-style-type: none;
     padding: 0;
 }
 .contacts_list li a {
     color: blue;
+}
+.post_content a{
+color: white;
+}
+.contacts-list-title{
+    color: red;
 }
