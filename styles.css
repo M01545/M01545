@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #title{
-    color: rgb(0, 238, 255);
+    color: rgba(255, 153, 0, 0.769);
 }
 .div_title{
     display:flex;
@@ -16,14 +16,13 @@
 }
 .post_title{
     color: orange;
-    font-size: 16px;
-    font-style: italic;
+    font: italic normal 16px verdana, sans-serif;
     margin: 0;
     margin-bottom: 15px;
 }
 .body{
     background-image: url("./assets/fundoNote1500.jpg");
-    font-family: Verdana;
+    font-family: Verdana, Tahoma, sans-serif;
     max-width: 900px;
     margin: auto;
     margin-top: 20px;
@@ -34,8 +33,9 @@
     margin-bottom: 15px;
     border-radius: 20px;
     color: white;
-    background-image: linear-gradient(90deg, #280399 0%, #0b4da9 50.52%, #6ea6ff 100%);
-    border-radius: 10px
+    background-image: linear-gradient(90deg, #1505a8 0%, #0b4da9 50.52%, #0082FF 100%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #0084ff81;
 }
 .post_content{
     margin: 0;
@@ -48,7 +48,7 @@
 }
 .perfil_image{
     border-radius: 50%;
-    border: 3px solid rgb(15, 181, 184);
+    border: 3px solid rgb(12, 99, 153);
     height: 200px;
     padding: auto;
 }
@@ -63,7 +63,7 @@
 color: white;
 }
 .contacts-list-title{
-    color: #0c63dd;
+    color: rgba(255, 153, 0, 0.769);
 }
 /*animações*/
 
