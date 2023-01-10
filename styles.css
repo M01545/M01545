@@ -19,6 +19,7 @@
     font: italic normal 16px verdana, sans-serif;
     margin: 0;
     margin-bottom: 15px;
+    text-align: left;
 }
 .body{
     background-image: url("./assets/fundoNote1500.jpg");
@@ -36,37 +37,63 @@
     background-image: linear-gradient(90deg, #1505a8 0%, #0b4da9 50.52%, #0082FF 100%);
     border-radius: 10px;
     box-shadow: 1px 1px 3px #0084ff81;
+    width: 50em;
+    height: auto;
+    text-align: center;
+
 }
 .post_content{
     margin: 0;
     margin-bottom: 15px;
     text-align: justify;
 }
+/*
 .post_image{
     margin-bottom: 15px;
     width: 100%;
-}
+} não utilizado
+*/
 .perfil_image{
     border-radius: 50%;
     border: 3px solid rgb(12, 99, 153);
     height: 200px;
     padding: auto;
 }
+.contacts-list-title{
+    color: rgba(255, 153, 0, 0.769);
+    padding-bottom: 10px;
+}
 .contacts_list{
     list-style-type: none;
     padding: 0;
 }
-.contacts_list li a {
-    color: blue;
+.contacts_links{
+    color:rgb(12, 99, 153);
+    text-decoration: none;
+    font-weight: bold;
+}
+.contacts_links:visited{
+    color: orange;
+}
+.contacts_links:hover{
+    text-decoration: underline;
+    color: rgb(79, 55, 9);
+}
+.contacts_links:active{
+    color:rgb(6, 120, 214);
 }
 .post_content a{
 color: white;
 }
-.contacts-list-title{
-    color: rgba(255, 153, 0, 0.769);
-}
+
 /*animações*/
 
 article:hover {
     transform: scale(1.05)
 }
+/* 
+    no css:
+    : pseudo class
+    :: pseudo elemento
+    > children
+*/
