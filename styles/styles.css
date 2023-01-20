@@ -22,7 +22,7 @@
     text-align: left;
 }
 .body{
-    background-image: url("./assets/fundoNote1500.jpg");
+    background-image: url("../assets/fundoNote1500.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
